@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-starter-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha --timeout=0 -u tdd --colors --exit ./test/"
+  },
+  "author": "w0o <wolf.bocanett@ibm.com> (https://github.com/w0o)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.2"
+  }
+}

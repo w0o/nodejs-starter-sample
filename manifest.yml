@@ -1,0 +1,8 @@
+applications:
+- name: sample-nodejs-cloudant
+  random-route: true
+  memory: 192M
+  instances: 1
+  disk_quota: 1024M
+  env:
+    NODE_ENV: default
